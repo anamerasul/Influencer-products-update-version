@@ -66,8 +66,12 @@ a{
 .pic-fluid{
     width:100%;
 }
+.desktop-section-margin{
+    margin-bottom: 100px;
+}
 /* header part css start */
 /* nav part css start */
+
 .bend-logo-menu{
    justify-content:space-between;
    height:80px;
@@ -182,6 +186,15 @@ text-align: left;
    
 
 }
+
+
+/* ecommerce section css start
+ */
+
+ .ecommerece{
+grid-template-columns: repeat(7,1fr);
+gap:30px;
+ }
 
 
 
