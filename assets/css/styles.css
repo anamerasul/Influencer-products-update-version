@@ -36,22 +36,43 @@ body{
 }
 
 .container{
-    max-width:1200px;
+    max-width:1300px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .bend{
     display:flex;
 }
+.layer{
+    display:grid;
+}
+a{
+    text-decoration:none;
+}
+.primary-button{
+    padding:10px 25px;
+    background-color:var(--button-background-color);
+    outline:0;
+    color:var(--button-color);
+    cursor:pointer; 
+}
+.rounded{
+    border-radius:41px;
+    border:1px solid transparent;
 
+}
 
+.pic-fluid{
+    width:100%;
+}
 /* header part css start */
 /* nav part css start */
 .bend-logo-menu{
    justify-content:space-between;
    height:80px;
-   margin: 50px  auto; 
+   margin: 40px  auto; 
+   align-items: center;
 }
 
 .bend-logo-menu .logo a{
@@ -68,6 +89,7 @@ body{
 .menu-item {
     padding:0 20px;
     justify-content:space-between;
+
 }
 .menu{
     padding:0 35px;
@@ -102,3 +124,64 @@ body{
     text-align: left;
 
 }
+
+/* banner css start */
+.banner{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:30px;
+}
+.banner-right {
+    margin-right:40px;
+}
+.banner-heading-paragrap-button {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+
+}
+.title{
+    margin: 0 0 20px 0;
+}
+ .title h1{
+color:var(--h1-h2-h3-p-li-color);
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+ .title p{
+    color:var(--h1-h2-h3-p-li-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+.banner-left{
+    background-image:url(../images/Circle_design.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:-86px;
+}
+.banner-left .image{
+    height: 414px;
+    width: 440px;
+    transition: transform 1s ease-in-out;
+}
+
+
+.banner-left:hover .image {
+    transform: skewY(20deg) rotate(207deg) scaleX(1.2);
+   
+
+}
+
+
+
