@@ -238,10 +238,60 @@ grid-gap:20px;
 
  }
 
+ .popular-cart-title h3{
+    color: var(--popular-h3-color);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+ }
+
+ .popular-cart-title p{
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+
+ }
+.popular-cart-description p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    align-items: center;
+    letter-spacing: 0.018em;
+    color: #787885;
+
+}
+
+
+
+
+
+
  .popular-section-anchor{
      justify-content:flex-end;
 
  }
+
+ .rattings span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5E6366;
+
+ }
+
+ .rattings .fas{
+   
+    font-size: 14px;
+    line-height: 22px;
+    color: #f7d70b;
+
+ }
+
+
 .section-anchor{
     color:var(--a-link-arrow-color);
 font-size: 16px;
