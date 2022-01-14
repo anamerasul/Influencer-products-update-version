@@ -9,4 +9,34 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+:root{
+    --h1-h2-h3-p-li-color:#3A3A3A;
+    --button-color:#FFFFFF;
+    --button-background-color:#E02C6D;
+    --a-link-arrow-color:#E02C6DDE;
+    --popular-h3-color: #18191F;
+    --popular-price-color: #000000DE;
+    --popolar-ratting-color: #5E6366;
+    --popolar-p-color:#787885;
+
+
+
+
+
+
+
+
+
+}
 /* universal css style end */
+/* common style start */
+body{
+    background-color: #AAAAAA;
+}
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
