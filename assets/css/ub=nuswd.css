@@ -35,10 +35,34 @@ body{
     /* background-color: #AAAAAA; */
 }
 
+.cell-lg-1{width: 16.66%;}
+.cell-lg-2{width: 33.32%;}
+.cell-lg-3{width: 49.98%;}
+.cell-lg-4{width: 66.64%;}
+.cell-lg-5{width: 83.3%;}
+.cell-lg-6{width: 100%;}
+
 .container{
     max-width:1300px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.--margin-x-axix-auto{
+    margin: 0 auto;
+    
+}
+.--margin-y-axix-auto{
+    margin: auto 0;
+
+}
+.--margin-x-y-axix-auto{
+    margin: auto 0;
+
+}
+
+.container-fluid{
+              width: 100%;
 }
 
 .bend{
@@ -222,7 +246,7 @@ grid-gap:20px;
  }
 
  .popular-collection-cart{
-    /* height: 476px; */
+    height: 476px;
     width: 329px;
     border-radius: 5px;
     padding: 10px;
@@ -292,6 +316,8 @@ grid-gap:20px;
  }
 
 
+
+
 .section-anchor{
     color:var(--a-link-arrow-color);
 font-size: 16px;
@@ -303,77 +329,4 @@ letter-spacing: 0px;
 
 }
 
-
-
-
-
-
-
-
-
-
-/* buy now section css start */
-
-.buy-now-section-heading {
-    text-align:center;
-    justify-content:center;
-    align-items:center;
-    margin:30px 0;
-}
-.buy-now-section-heading h2{
-    text-align:center;
-    color:var(--h1-h2-h3-p-li-color);
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 70px;
-    letter-spacing: 0px;
-    text-transform: capitalize;
-    
-}
-
-.buy-now-right-left{
-    grid-template-columns: repeat(2,1fr);
-}
-
-.buy-now-left form{
-    flex-direction: column;
-
-}
-
-.text-field, select{
-    width:100%;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 18px;
-    font-family: inherit;
-    outline: none;
-    border: 1px solid var(--h1-h2-h3-p-li-color);
-
-}
-
-/* .buy-now-right-image{
-    display: none;
-
-} */
-
-.buy-now-right:hover{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ /* popular section css end */
